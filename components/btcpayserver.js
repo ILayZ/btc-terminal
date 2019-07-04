@@ -5,7 +5,7 @@ const BTCPay = ({value, url}) => {
             {/* <input type="hidden" name="email" value="customer@example.com" /> */}
             <input type="hidden" name="orderId" value={`BTCTPA_${Date.now()}`} />
             {/* <input type="hidden" name="notificationUrl" value="http://example.com" /> */}
-            <input type="hidden" name="redirectUrl" value="https://btctpa.netlify.com/" />
+            <input type="hidden" name="redirectUrl" value="https://btcpay-teminal.netlify.com/" />
         </form>
     )
 }
